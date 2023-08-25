@@ -1,0 +1,46 @@
+# Alphabox+
+
+## Screenshot
+
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [The following goals](#the-following-goals)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+- 2023六角學院切版直播班第八週任務
+- Bootstrap
+- SASS/SCSS
+
+
+### Links
+
+- Solution URL: [repo](/)
+- Live Site URL: [pages](/)
+
+## My process
+
+### Built with
+- Bootstrap5
+- git, Node.js
+- SASS/SCSS
+- ejs
+  
+### The following goals
+- 2023/08/25 set up environment
+
+### Useful resources
+好用的資源：
+- 1. 
+
+## Author
+
+- Website - [Rochel Wang](https://github.com/rochelwang1205)
+- Frontend Mentor - [@Rochel Wang](https://www.frontendmentor.io/profile/rochelwang1205)
+- Twitter - [@RochelWang4](https://twitter.com/RochelWang4)
