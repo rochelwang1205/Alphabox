@@ -1,6 +1,11 @@
+// 載入 material icon CDN
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/font';
 @import './utils/variables';
+
+@import './components/accordion';
 
 @import './utils/border';
 
