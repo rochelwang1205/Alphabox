@@ -7,7 +7,7 @@
 
 - [Overview](#overview)
   - [Links](#links)
-- [My process](#my-process)
+- [Process](#process)
   - [Built with](#built-with)
   - [The following goals](#the-following-goals)
   - [Useful resources](#useful-resources)
@@ -23,7 +23,7 @@
 - Solution URL: [repo](/)
 - Live Site URL: [pages](/)
 
-## My process
+## Process
 
 ### Built with
 - Bootstrap5
