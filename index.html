@@ -5,58 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- font-family -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Shrikhand&display=swap" rel="stylesheet">    <script type="module" crossorigin src="/web-layout-training-vite/assets/index-76e4ecc1.js"></script>
-    <link rel="stylesheet" href="/web-layout-training-vite/assets/index-7a8451f1.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Shrikhand&display=swap" rel="stylesheet">
+<!-- google material icon -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">    <script type="module" crossorigin src="/web-layout-training-vite/assets/index-65d1fcbc.js"></script>
+    <link rel="stylesheet" href="/web-layout-training-vite/assets/index-8fd88b6e.css">
   </head>
   <body>
-    <h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
-          </div>
+    <nav class="bg-primary d-flex">
+    <div class="container d-flex justify-content-between align-items-center py-16">
+        <a href="#"><i class="text-light fs-4">ALPHABOX+</i></a>
+        <!-- pc -->
+        <div class="d-lg-flex gap-40  d-none ">
+            <a href="#" class="text-light d-block">產品</a>
+            <a href="#" class="text-light d-block">關於我們</a>
+            <a href="#" class="text-light d-block">最新消息</a>
+            <a href="#" class="text-light d-block noto-sans-CJK-TC">FAQ</a>
+            <a href="#" class="text-light d-block">聯絡我們</a>
         </div>
-      </div>
+        <div class="d-lg-flex align-items-center gap-24  d-none ">
+            <a href="#" class="text-light">註冊</a>
+            <a href="#" class="text-light">登入</a>
+            <a href="#" class="bg-light text-dark px-16 py-8 border-radius-sm btn d-flex align-items-center"><img src="/web-layout-training-vite/assets/point_scan-f4796b38.svg" alt="scan icon"><p>訂閱</p></a>
+        </div>
+        <!-- mobile hamburgur -->
+        <div class="hamburgur d-lg-none">
+            <a class="d-flex align-items-center px-12 py-1 h-100 text-light" data-bs-toggle="collapse" href="#hambur" role="button" aria-expanded="false" aria-controls="collapseExample"><span class="material-icons">
+            menu
+            </span></a>
+        </div>
     </div>
+</nav>
+    <!-- 選單內容 -->
+    <div class="d-lg-none collapse py-32 gradient" id="hambur">
+        <ul class="container list-unstyled py-4 d-flex flex-column align-items-center">
+          <li class="mb-20"><a href="#" class="text-light d-block">產品</a></li>
+          <li class="mb-20"><a href="#" class="text-light d-block">關於我們</a></li>
+          <li class="mb-20"><a href="#" class="text-light d-block">最新消息</a></li>
+          <li class="mb-20"><a href="#" class="text-light d-block noto-sans-CJK-TC">FAQ</a></li>
+          <li class="mb-20"><a href="#" class="text-light d-block">聯絡我們</a></li>
+          <li class="mb-20">
+            <a href="#" class="text-light">登入</a>
+          </li>
+          <li class="mb-20">
+            <a href="#" class="text-light">註冊</a>
+          </li>
+          <li>
+            <a href="#" class="bg-light text-dark px-16 py-8 border-radius-sm"><img src="/web-layout-training-vite/assets/point_scan-f4796b38.svg" alt="scan icon btn">訂閱</a>
+          </li>
+          
+        </ul>
+      </div>
 
-    <footer class="footer">我是 footer</footer>
+  
+
+    <footer class="bg-light">
+    <div class="container d-none d-lg-flex align-items-center justify-content-between  py-52">
+        <div class="text-dark">
+            <h4>ALPHABOX+</h4>
+            <p>Copyright © 2023 Hexschool.</p>
+        </div>
+        <span class="material-icons text-dark fs-80">
+            emergency
+            </span>
+        <div class="d-lg-flex gap-24">
+            <a href="#" class="text-dark">關於我們</a>
+            <a href="#" class="text-dark">產品資訊</a>
+            <a href="#" class="text-dark">常見問題</a>
+            <a href="#" class="text-dark">隱私政策</a>
+        </div>
+    </div>
+    <!-- mobile -->
+    <div class="container d-lg-none py-40">
+        <h4 class="text-dark mb-8">ALPHABOX+</h4>
+        <span class="material-icons text-dark fs-80 mb-8">
+            emergency
+            </span>
+        <div class="d-lg-flex gap-24">
+            <a href="#" class="text-dark d-block mb-8">關於我們</a>
+            <a href="#" class="text-dark d-block mb-8">產品資訊</a>
+            <a href="#" class="text-dark d-block mb-8">常見問題</a>
+            <a href="#" class="text-dark d-block mb-8">隱私政策</a>
+        </div>
+        <p class="text-dark">Copyright © 2023 Hexschool.</p>
+    </div>
+</footer>
     
   </body>
 </html>
