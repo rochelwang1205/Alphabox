@@ -11,7 +11,6 @@
   - [Built with](#built-with)
   - [The following goals](#the-following-goals)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 
 ## Overview
 - 2023六角學院切版直播班第八週任務
@@ -38,9 +37,3 @@
 ### Useful resources
 好用的資源：
 - 1. 
-
-## Author
-
-- Website - [Rochel Wang](https://github.com/rochelwang1205)
-- Frontend Mentor - [@Rochel Wang](https://www.frontendmentor.io/profile/rochelwang1205)
-- Twitter - [@RochelWang4](https://twitter.com/RochelWang4)
