@@ -10,6 +10,65 @@
   <body>
     <%- include('./layout/nav'); -%>
     <!-- header --> 
+    <header>
+      <div class="mx-80 pb-20 pt-60">
+        <div>
+          <div class="d-lg-flex justify-content-end">
+            <p class="col-lg-4 border-top noto-sans-CJK-TC ls-1-6 pb-8">ALPHABOX+ STUDIO</p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img src="/assets/images/home/circle.png" alt="icon circle" class="col-lg-2 rotate">
+        </div>
+        <div class="d-lg-flex justify-content-between pb-56 d-none">
+        <p class="font-weight-bold border-bottom noto-sans-CJK-TC pb-8">最新消息！新版本 v15.4 釋出，搶先體驗！</p>
+        <p class="text pale noto-sans-CJK-TC ls-1-6">Copyright © 2023 Hexschool.</p>
+      </div>
+       <!-- mobile -->
+       <div class="d-flex flex-column align-items-center d-lg-none">
+        <h4 class="ls-26 fs-5">ALPHABOX+</h4>
+        <p class="ls-4-8 fs-6">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+      </div>
+      <!-- pc -->
+      <div class="d-lg-flex flex-column align-items-center">
+      <div class="position-absolute d-lg-flex flex-column align-items-center d-none">
+        <h4 class="ls-20 ls-lg-80 fs-5 fs-xl-4">ALPHABOX+</h4>
+        <p class="ls-4-8 ls-lg-16 fs-6">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+      </div>
+    </div>
+   
+
+    <!-- product -->
+      <div class="product d-lg-flex justify-content-between align-items-end gap-32">
+        <div class="position-relative">
+        <a href="#">
+          <img src="/assets/images/home/diane.png" alt="Diane">
+          <h4 class="text-light position-absolute">Diane</h4>
+        </a>
+      </div>
+      <div class="position-relative">
+        <a href="#">
+          <img src="/assets/images/home/felix.png" alt="Felix">
+          <h4 class="text-light position-absolute">Felix</h4>
+        </a>
+        </div>
+        <div class="position-relative">
+        <a href="#">
+          <img src="/assets/images/home/karina.png" alt="Karina">
+          <h4 class="text-light position-absolute">Karina</h4>
+        </a>
+      </div>
+      <div class="position-relative">
+        <a href="#">
+          <img src="/assets/images/home/vito.png" alt="Vito">
+          <h4 class="text-light position-absolute">Vito</h4>
+        </a>
+      </div>
+      </div>
+      
+      </div>
+      
+    </header>
     <!-- 介紹 -->
     <!-- 最新消息 -->
     <div class="radialToLight pt-160">
@@ -105,7 +164,6 @@
     <div class="container d-lg-flex justify-content-end mb-40 d-none">
       <p>為環保盡一份心力，我們的包裝盒和紙質說明書都使用環保材料</p>
     </div>
-    
     <!-- 使用分享 -->
     <div class="radialToDark position-relative overflow-hidden pt-160 pb-40">
       <div class="container">
@@ -137,8 +195,8 @@
         </svg>
         <!-- swiper -->
         <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide bg-info text-light p-40 d-flex flex-column justify-content-between">
+          <div class="swiper-wrapper d-md-flex d-block">
+            <div class="swiper-slide bg-info text-light p-40 d-flex flex-column justify-content-between mb-md-0 mb-24">
               <div>
               <div class="d-flex align-items-center mb-32 gap-8">
                 <p>Zona</p>
@@ -153,7 +211,7 @@
                 <p>ALPHABOX+ Dianne</p>
               </div>
             </div>
-            <div class="swiper-slide bg-light text-dark p-40 d-flex flex-column justify-content-between">
+            <div class="swiper-slide bg-light text-dark p-40 d-flex flex-column justify-content-between mb-md-0 mb-24">
               <div>
               <div class="d-flex align-items-center mb-32 gap-8">
                 <p>Lin</p>
@@ -168,7 +226,7 @@
                 <p>ALPHABOX+ Felix</p>
               </div>
             </div>
-            <div class="swiper-slide bg-info text-light p-40 d-flex flex-column justify-content-between">
+            <div class="swiper-slide bg-info text-light p-40 d-flex flex-column justify-content-between mb-md-0 mb-24">
               <div>
               <div class="d-flex align-items-center mb-32 gap-8">
                 <p>云</p>
@@ -183,7 +241,7 @@
                 <p>ALPHABOX+ Dianne</p>
               </div>
             </div>
-            <div class="swiper-slide bg-light text-dark p-40 d-flex flex-column justify-content-between">
+            <div class="swiper-slide bg-light text-dark p-40 d-flex flex-column justify-content-between mb-md-0 mb-24">
               <div>
               <div class="d-flex align-items-center mb-32 gap-8">
                 <p>Zichi</p>
@@ -199,11 +257,11 @@
               </div>
             </div>
           </div>
-        <div class="swiper-scrollbar d-flex align-items-center"><p class="order-2 position-absolute noto-sans-CJK-TC">SCROLL</p></div>
+        <div class="swiper-scrollbar d-md-flex align-items-center d-none"><p class="order-2 position-absolute noto-sans-CJK-TC">SCROLL</p></div>
       </div> 
       </div>
       <div class="container">
-        <p class="text-light mt-136">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
+        <p class="d-none d-md-flex text-light mt-136">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
       </div>
       <!-- 背景字 -->
       <div class="d-flex justify-content-center">
