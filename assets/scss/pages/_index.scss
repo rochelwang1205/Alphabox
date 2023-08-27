@@ -1,13 +1,48 @@
 // *{
 //   outline: 1px solid red;
 // }
+.radial{
+  background: radial-gradient(50% 50.00% at 50% 50.00%, #000 0%, #28085C 100%);
+}
+.dot-s{
+  width: 8px;
+  height:8px;
+  border-radius: 100%;
+}
+.dot-m{
+  width:12px;
+  height: 12px;
+  border-radius: 100%;
+}
+.dot-l{
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+}
+//使用分享
+.swiper-slide{
+  height: 416px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  max-height: 207px;
+  object-fit: cover;
+}
+.watermark{
+  color: rgba(255, 255, 255, 0.04);
+  text-align: center;
+  font-family: Shrikhand;
+  font-size: 400px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 600px */
+  position: absolute;
+  bottom:-250px;
+}
 // 聯絡我們
 .ls-48{
   letter-spacing: 48px;
-}
-.dot{
-  width:12px;
-  border-radius: 100%;
 }
 .line{
   width:124px;
