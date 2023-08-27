@@ -1,3 +1,55 @@
-.index-title {
-  font-size: 100px;
+// 類型
+.fs-md-32 {
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+}
+
+.fs-m {
+  font-size: 128px;
+}
+
+.fs-md-l {
+  @media (min-width: 768px) {
+    font-size: 400px;
+  }
+}
+.mb-md-20 {
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+}
+
+.mb-md-80 {
+  @media (min-width: 768px) {
+    margin-bottom: 80px;
+  }
+}
+.card{
+  padding: 24px 12px;
+  background-color: rgba(0,0,0,0);
+  background-image: url(/assets/images/home/diane_vertical.png);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  transition: all 1s;
+  @media (min-width: 768px) {
+    padding: 24px 40px 56px;
+    background-color: rgba(0,0,0,0.5);
+  }
+  &:hover {
+    background-color: rgba(0,0,0,0.5);
+  }
+}
+.card-1 {
+  background-image: url(/assets/images/home/diane_vertical.png);
+}
+.card-2 {
+  background-image: url(/assets/images/home/felix_vertical.png);
+}
+.card-3 {
+  background-image: url(/assets/images/home/karina_verticalgle.png);
+}
+.card-4 {
+  background-image: url(/assets/images/home/vito_vertical.png);
 }
