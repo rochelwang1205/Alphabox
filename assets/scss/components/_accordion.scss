@@ -1,0 +1,27 @@
+.accordion {
+  &-item {
+    & > * {
+      @media (min-width:1200px) {
+        width: 77.1%;
+      }
+    }
+  }
+  .accordion-button {
+    // 調整 icon
+    &::after {
+      background-image: none;
+      font-family: 'Material Icons';
+      content: '\e145';
+      font-size: 40px;
+      line-height: 1;
+      @media (min-width:1200px) {
+        position: absolute;
+        right: -40px;
+      }
+    }
+    &:not(.collapsed)::after {
+      background-image: none;
+      content: '\e15b';
+    }
+  }
+}
