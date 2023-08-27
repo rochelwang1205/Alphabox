@@ -1,0 +1,9 @@
+.gradient{
+  background: linear-gradient(180deg, #7000FF 0%, #11002D 100%);
+}
+.border-radius-sm{
+  border-radius: 4px;
+}
+.btn:hover{
+  background: $info !important;
+}
