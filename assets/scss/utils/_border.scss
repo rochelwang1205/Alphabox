@@ -2,3 +2,10 @@
 .border-dotted {
   --bs-border-style: dotted;
 } // tanuki
+
+// RWD
+@media (min-width: 768px) {
+  .border-md-0 {
+    --bs-border-width: 0 !important;
+  }
+}
