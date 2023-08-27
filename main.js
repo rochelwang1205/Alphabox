@@ -11,6 +11,9 @@ var swiper = new Swiper(".mySwiper", {
       992:{
         slidesPerView: 3,
       }
-    }
-    
+    },
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      dragSize:554,
+    },   
   });

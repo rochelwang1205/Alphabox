@@ -1,8 +1,30 @@
 // *{
 //   outline: 1px solid red;
 // }
-.radial{
+
+.ls-16{
+  letter-spacing: 16px;
+}
+.ls-20{
+  letter-spacing: 20px;
+}
+.ls-24{
+  letter-spacing: 24px;
+}
+.ls-48{
+  letter-spacing: 48px;
+}
+.pb-130{
+  padding-bottom: 130px;
+}
+.pb-150{
+  padding-bottom: 150px;
+}
+.radialToDark{
   background: radial-gradient(50% 50.00% at 50% 50.00%, #000 0%, #28085C 100%);
+}
+.radialToLight{
+  background: radial-gradient(50% 50.00% at 50% 50.00%, #28085C 0%, #000 100%);
 }
 .dot-s{
   width: 8px;
@@ -19,6 +41,11 @@
   height: 16px;
   border-radius: 100%;
 }
+.circle{
+  color: $light;
+  position: absolute;
+  top:-54px;
+}
 //使用分享
 .swiper-slide{
   height: 416px;
@@ -29,6 +56,24 @@
   max-height: 207px;
   object-fit: cover;
 }
+.mySwiper {
+  position: relative;
+  overflow: hidden;
+}
+.swiper{
+  overflow: visible;
+}
+.swiper-horizontal > .swiper-scrollbar {
+  width: 66%;
+  left: 0;
+  bottom: var(--swiper-scrollbar-bottom,-48px);
+  color: $light;
+  p{
+    right:-10%;
+  }
+}
+.swiper-scrollbar-drag{background: $light;}
+
 .watermark{
   color: rgba(255, 255, 255, 0.04);
   text-align: center;
@@ -41,9 +86,6 @@
   bottom:-250px;
 }
 // 聯絡我們
-.ls-48{
-  letter-spacing: 48px;
-}
 .line{
   width:124px;
   height:12px;
