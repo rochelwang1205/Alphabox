@@ -14,3 +14,23 @@
 .saira{
     font-family: 'Saira Extra Condensed', sans-serif;
 }
+
+.fs-24 {
+    @media (min-width: 992px) {
+        font-size: 3rem;
+    }
+    @media (min-width: 1500px) {
+        font-size: 6rem;
+    }
+}
+
+.ls-96 {
+    letter-spacing: 24px;
+    @media (min-width: 768px) {
+        letter-spacing: 48px;
+    }
+    
+    @media (min-width: 1500px) {
+        letter-spacing: 80px;
+    }
+}

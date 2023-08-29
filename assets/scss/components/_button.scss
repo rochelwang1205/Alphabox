@@ -1,0 +1,8 @@
+.btn.btn-light {
+    font-weight: 500;
+    &:hover {
+        color: $white;
+        background: $primary !important;
+        border: none;
+    }
+}
