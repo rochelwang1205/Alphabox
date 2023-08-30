@@ -6,3 +6,13 @@
         border: none;
     }
 }
+.btn.btn-dark{
+    font-weight: 500;
+    color: $black;
+    background: $white;
+    border: none;
+    &:hover{
+        color: $white;
+        background: $black !important;
+    }
+}
