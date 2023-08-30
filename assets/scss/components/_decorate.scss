@@ -1,0 +1,17 @@
+.highline-danger {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: -16%;
+        width: 80px;
+        height: 12px;
+        margin: 0 4px;
+        display: inline-block;
+        background: $danger;
+    }
+}
