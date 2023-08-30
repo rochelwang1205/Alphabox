@@ -375,8 +375,14 @@
             emergency
             </span>
           <form>
-            <input type="email" class="d-block noto-sans-CJK-TC mb-16 py-8" placeholder="EMAIL">
-            <input type="text" class="d-block noto-sans-CJK-TC text-warning mb-16 pt-8 pb-82" placeholder="COMMENTS">
+            <div class="form-floating">
+              <input type="email" class="form-control bg-light text-dark d-block noto-sans-CJK-TC mb-16 py-8 pt-24" id="emailInput" placeholder="EMAIL">
+              <label for="emailInput" class="noto-sans-CJK-TC text-dark">EMAIL</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control bg-light text-dark d-block noto-sans-CJK-TC text-warning mb-16 pt-40 pb-82" id="commentInput" placeholder="COMMENTS">
+              <label for="commentInput" class="noto-sans-CJK-TC text-dark">COMMENT</label>
+            </div>
             <button type="button" class="col-md-4 col-12 bg-success text-light"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
               <mask id="mask0_464_3402" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                 <rect width="24" height="24" fill="#D9D9D9"/>
